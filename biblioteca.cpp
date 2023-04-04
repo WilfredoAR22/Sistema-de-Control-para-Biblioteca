@@ -99,7 +99,7 @@ void reglibros()//funcion para registrar los libros
 			gets(libros.nomlib);
 			cout<<"Autor del libro: ";
 			gets(libros.autor);
-      	cout<<"A�o de edicion: ";
+      	cout<<"Año de edicion: ";
       	cin>>libros.adeEdi;
       	cout<<"Editorial: ";
       	gets(libros.edit);
@@ -127,7 +127,7 @@ void libreg()// funcion para ver los libros registrados en la biblioteca
   		cout<<libros.nomlib;
   		cout<<"\nAutor del libro: ";
   		cout<<libros.autor;
-  		cout<<"\nA�o de edicion: ";
+  		cout<<"\nAño de edicion: ";
       cout<<libros.adeEdi;
       cout<<"\nEditorial: ";
       cout<<libros.edit;
@@ -279,7 +279,7 @@ void Blibro() /////funcion para buscar libro
   				cout<<libros.nomlib;
   				cout<<"\n Autor del libro: ";
   				cout<<libros.autor;
-  				cout<<"\n A�o de edicion: ";
+  				cout<<"\n Año de edicion: ";
       		cout<<libros.adeEdi;
       		cout<<"\n Editorial: ";
       		cout<<libros.edit;
